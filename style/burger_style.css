@@ -30,6 +30,7 @@ header {
     height: auto; /* Adjust height automatically */
     object-fit: cover; /* Cover the area of the container */
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 aside {
@@ -59,6 +60,7 @@ aside {
     /* Styles for mobile devices */
     .container {
         flex-direction: column; /* Stack elements vertically on small screens */
+        width: 90%;
     }
     aside, .container figure {
         width: 100%; /* Full width for child elements */

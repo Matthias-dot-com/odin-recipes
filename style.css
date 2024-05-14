@@ -1,0 +1,55 @@
+body{
+    background-color: bisque;
+}
+
+.head{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid brown;
+    border-radius: 100px;
+}
+/* hr{
+    height: 4px;
+    background-color: black;
+    margin: 20px;
+} */
+
+.lists
+{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    list-style-type: none;
+    color: brown;
+    text-decoration: none;
+    list-style-type: none;
+    /* border: 7px dashed brown; */
+    box-shadow: 2pc;
+    margin: 20px;
+    height: 60vh;
+}
+.lists p
+{
+    font-size: 80px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lists p:hover{
+    color: black;
+}
+
+.footer{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
